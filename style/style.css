@@ -8,3 +8,25 @@ html {
     font-size: 100%;
     font-family: 'Open Sans', sans-serif;
 }
+
+.flex {
+    display: flex;
+}
+
+/* header */
+
+header {
+    padding: 1em;
+    position: fixed;
+    background-color: white;
+}
+
+.header-top .title img {
+    width: 8%;
+    vertical-align: baseline;
+}
+
+/* main */
+main {
+    padding: 100px 200px 50px;
+}
