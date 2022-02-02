@@ -85,7 +85,7 @@
     <main>
         <div class="block">
             <?php
-                foreach ($faq as $key => $value) {
+                foreach ($faq as $value) {
                     ?>
                         <h2 class="question" ><?php echo($value["question"]); ?></h2>
                     <?php
